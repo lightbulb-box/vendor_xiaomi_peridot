@@ -1158,7 +1158,6 @@ PRODUCT_PACKAGES += \
     gyro_fusion_interface \
     libEseUtils \
     libqtigatekeeper \
-    sound_trigger.primary.pineapple \
     vendor.qti.hardware.alarm-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
