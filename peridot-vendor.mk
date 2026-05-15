@@ -489,6 +489,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_36_0f_0b_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_36_0f_0b_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json \
+    vendor/xiaomi/peridot/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
@@ -573,6 +575,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_sw_disabled.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_to_wake.json \
+    vendor/xiaomi/peridot/proprietary/odm/etc/surfaceflinger/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/surfaceflinger/dolby_vision.cfg \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-boost.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-boost.conf \
@@ -621,6 +624,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
+    vendor/xiaomi/peridot/proprietary/odm/etc/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/thermalbreakboostconfig.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b01 \
@@ -812,6 +816,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigsecure.bin \
     vendor/xiaomi/peridot/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
     vendor/xiaomi/peridot/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
+    vendor/xiaomi/peridot/proprietary/odm/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/etc/dolby_vision.cfg \
+    vendor/xiaomi/peridot/proprietary/odm/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/persist/display/dolby_vision.cfg \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/peridot/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
@@ -888,6 +894,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/eva/facedetection/bias.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/bias.dat \
     vendor/xiaomi/peridot/proprietary/vendor/etc/eva/facedetection/weight.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/weight.dat \
@@ -945,6 +953,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
@@ -954,6 +964,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service_peridot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service_peridot.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vendor.qti.hardware.soter-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter-service.rc \
@@ -972,6 +983,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
@@ -979,6 +991,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim:$(TARGET_COPY_OUT_VENDOR)/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim:$(TARGET_COPY_OUT_VENDOR)/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/exceptionrecoveryconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/exceptionrecoveryconfig.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/perfboostselection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostselection.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/thermal-boost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermal-boost.conf \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
@@ -1181,11 +1208,16 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
     libconfigdb \
     libcpion \
     libcustomva_intf \
     libcv_common \
+    libdapparamstorage \
     libdataitems \
+    libdeccfg \
     libdfintf \
     libdiag \
     libdiagjni \
@@ -1197,6 +1229,12 @@ PRODUCT_PACKAGES += \
     libdisplayfeatureservice \
     libdisplayqos \
     libdisplayskuutils \
+    libdlbdsservice \
+    libdlbpreg \
+    libdolbyclstc \
+    libdolbydecoderprocessor \
+    libdolbyeglcore \
+    libdolbyottcameracontrol \
     libdpmqmihal \
     libdpp_manager \
     libdpps \
@@ -1254,10 +1292,13 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
+    liblearningmodule \
     liblistensoundmodel2vendor \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    liblmthermallistner \
+    liblmutils-ns \
     libloadtrusteduiapp \
     libloc_api_v02 \
     libloc_api_wds \
@@ -1288,6 +1329,8 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libmemutils \
+    libmeters-ns \
+    libmeters \
     libmialgo \
     libmilut \
     libminkdescriptor \
@@ -1297,6 +1340,7 @@ PRODUCT_PACKAGES += \
     libmisfpsop \
     libmisight \
     libmisops \
+    libmisoundfx_ext \
     libmisoundsa \
     libmispowerop \
     libmisr \
@@ -1334,7 +1378,11 @@ PRODUCT_PACKAGES += \
     libpalclient \
     libpdmapper \
     libpdnotifier \
+    libperfconfig \
+    libperfgluelayer \
+    libperfioctl \
     libperipheral_client \
+    libq-perflog \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -1353,6 +1401,7 @@ PRODUCT_PACKAGES += \
     libqcodec2_basecodec \
     libqcodec2_core \
     libqcodec2_cvpfilter \
+    libqcodec2_dolbydecoderfilter \
     libqcodec2_filterbase \
     libqcodec2_hooks \
     libqcodec2_imgtxrfilter \
@@ -1412,7 +1461,11 @@ PRODUCT_PACKAGES += \
     libqshcamera \
     libqsocket \
     libqspm-mem-utils-vendor \
+    libqti-perfd-client \
+    libqti-perfd \
     libqti-qesdk-secure \
+    libqti-util \
+    libqti-utils \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -1445,6 +1498,7 @@ PRODUCT_PACKAGES += \
     libsensorslog \
     libshsc \
     libsi \
+    libskewknob \
     libslimclient \
     libsmemlog \
     libsn220u_fw \
@@ -1460,12 +1514,15 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsnsutils \
     libsoc_helper \
+    libspatializerparamstorage \
     libspcom \
     libspl \
+    libsplh \
     libssc_default_listener \
     libssd \
     libstnfc-streset \
     libsubsystem_control \
+    libswspatializer_ext \
     libsynergy_loc_api \
     libsynx \
     libsys_info_cache \
@@ -1576,7 +1633,14 @@ PRODUCT_PACKAGES += \
     libworker_pool \
     sensors.qsh \
     libasphere \
+    libdlbvol \
+    libhwdap \
     libquasar \
+    libshoebox \
+    libspatializer \
+    libswgamedap \
+    libswspatializer \
+    libswvqe \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -1584,6 +1648,8 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
+    vendor.dolby.hardware.dms@2.0-impl \
+    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -1633,6 +1699,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
     vendor.qti.hardware.pal@1.0-impl \
+    vendor.qti.hardware.perf2-V1-ndk \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccsyshal@1.2_vendor \
@@ -1717,6 +1784,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
     vendor.qti.latencyaidlservice-V1-ndk \
+    vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
     vendor.qti.qesdhal-impl \
@@ -2311,11 +2379,13 @@ PRODUCT_PACKAGES += \
     qms-saidl.xml \
     qtiradio-saidl.xml \
     secure_element-service.xml \
+    vendor.dolby.hardware.dms.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
     vendor.qti.hardware.display.composer-service_peridot.xml \
+    vendor.qti.hardware.perf2.xml \
     vendor.qti.hardware.qconfig-service.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
@@ -2369,10 +2439,13 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti \
     qconfigservice \
     qcrilNrd \
+    vendor.dolby.hardware.dms@2.0-service \
+    vendor.dolby.media.c2@1.0-service \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.sensorscalibrate-service \
     vendor.qti.hardware.soter-service \
@@ -2459,7 +2532,8 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so
+    vendor_lib64_libq3dtools_adreno_so \
+    vendor_lib64_soundfx_libmisoundfx_so
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
